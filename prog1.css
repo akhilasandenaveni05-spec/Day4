@@ -1,0 +1,116 @@
+body {
+    background-color: #d6de82;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+}
+
+/* Main Heading */
+
+h1 {
+    text-align: center;
+    color: #210303;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+/* Subtitle */
+
+.subtitle {
+    text-align: center;
+    color: #02130f;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+/* Cards Container */
+
+.container {
+    display: flex;
+    gap: 25px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* Card */
+
+.card {
+    width: 270px;
+    background-color: rgb(128, 191, 214);
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px rgba(188, 36, 36, 0.15);
+}
+
+/* Image */
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: #d40e3f;
+}
+
+/* Card Content */
+
+.content {
+    text-align: left;
+}
+
+/* Branch / Role */
+
+.content h3 {
+    color: #230baa;
+    font-size: 14px;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+/* Name */
+
+.content h2 {
+    color: #d40e3f;
+    font-size: 25px;
+    margin: 0 0 10px 0;
+}
+
+/* Description */
+
+.content p {
+    color: #100202;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* Social Media */
+
+.social {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.social span {
+    width: 32px;
+    height: 32px;
+    background-color: #e7476f;
+    color: white;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+}
+
+/* Card Hover */
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
